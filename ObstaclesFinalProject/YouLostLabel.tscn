@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Play Pretend.otf" type="DynamicFontData" id=1]
+
+[sub_resource type="DynamicFont" id=1]
+size = 100
+extra_spacing_char = 5
+font_data = ExtResource( 1 )
+
+[node name="YouLost" type="Spatial"]
+
+[node name="YouLostLabel" type="Label3D" parent="."]
+text = "You Lost!"
+font = SubResource( 1 )
